@@ -1,0 +1,13 @@
+# Core
+numpy
+pandas
+matplotlib
+
+# ML
+torch
+
+# Geometric deep learning
+torch-geometric
+
+# Materials
+pymatgen
