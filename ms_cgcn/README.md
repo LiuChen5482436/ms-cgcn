@@ -1,4 +1,4 @@
-# Multi-Scale CGCNN (with Learnable Radius Gate)
+# Multi-Scale CGCNN 
 
 This repository contains a PyTorch Geometric implementation of a **Multi-Scale CGCNN** for crystal property prediction:
 
