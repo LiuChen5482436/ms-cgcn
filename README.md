@@ -1,4 +1,5 @@
 # Multi-Scale CGCNN 
+This repository contains a PyTorch Geometric implementation of a **Multi-Scale CGCNN** for crystal property prediction:
 
 ## Model Overview
 
@@ -8,7 +9,15 @@ Overall architecture of MS-CGCN, including data processing, multi-scale feature 
   <img src="model framework.png" alt="Overall architecture of MS-CGCN" width="100%">
 </p>
 
-This repository contains a PyTorch Geometric implementation of a **Multi-Scale CGCNN** for crystal property prediction:
+## PCA Visualization
+
+Figure: PCA visualization of the embeddings learned by MS-CGCN.  
+(a) first-scale embedding, (b) second-scale embedding, (c) third-scale embedding, and (d) combined embedding of all three scales.  
+The color bar represents the formation energy.
+
+<p align="center">
+  <img src="PCA Visualization.png" alt="PCA visualization of the embeddings learned by MS-CGCN" width="100%">
+</p>
 
 - **CIF -> Graph** conversion with:
   - Gaussian distance expansion (50 dims)
@@ -76,12 +85,4 @@ python scripts/train_ms.py --help
 
 - The cached dataset will be stored under `--root/processed/` as a `.pt` file.
 - Output curves are saved to `--save_dir`.
-## PCA Visualization
 
-Figure: PCA visualization of the embeddings learned by MS-CGCN.  
-(a) first-scale embedding, (b) second-scale embedding, (c) third-scale embedding, and (d) combined embedding of all three scales.  
-The color bar represents the formation energy.
-
-<p align="center">
-  <img src="PCA Visualization.png" alt="PCA visualization of the embeddings learned by MS-CGCN" width="100%">
-</p>
