@@ -1,5 +1,13 @@
 # Multi-Scale CGCNN 
 
+## Model Overview
+
+Overall architecture of MS-CGCN, including data processing, multi-scale feature learning, and fusion prediction.
+
+<p align="center">
+  <img src="model framework.png" alt="Overall architecture of MS-CGCN" width="100%">
+</p>
+
 This repository contains a PyTorch Geometric implementation of a **Multi-Scale CGCNN** for crystal property prediction:
 
 - **CIF -> Graph** conversion with:
