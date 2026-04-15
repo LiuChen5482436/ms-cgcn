@@ -68,3 +68,12 @@ python scripts/train_ms.py --help
 
 - The cached dataset will be stored under `--root/processed/` as a `.pt` file.
 - Output curves are saved to `--save_dir`.
+## PCA Visualization
+
+Figure: PCA visualization of the embeddings learned by MS-CGCN.  
+(a) first-scale embedding, (b) second-scale embedding, (c) third-scale embedding, and (d) combined embedding of all three scales.  
+The color bar represents the formation energy.
+
+<p align="center">
+  <img src="PCA Visualization.png" alt="PCA visualization of the embeddings learned by MS-CGCN" width="100%">
+</p>
