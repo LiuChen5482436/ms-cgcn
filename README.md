@@ -19,6 +19,13 @@ The color bar represents the formation energy.
   <img src="PCA Visualization.png" alt="PCA visualization of the embeddings learned by MS-CGCN" width="100%">
 </p>
 
+## Absolute Error Distribution
+Absolute-error distribution of CGCNN and MS-CGCN on the GATGNN compressed dataset.  
+MS-CGCN shifts more samples into the low-error region and achieves a smaller MAE.
+<p align="center">
+  <img src="absolute_error_distribution.png" alt="PCA visualization of the embeddings learned by MS-CGCN" width="100%">
+</p>
+
 - **CIF -> Graph** conversion with:
   - Gaussian distance expansion (50 dims)
   - Scaled direction vector features (3 dims)
